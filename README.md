@@ -1,9 +1,10 @@
 # Tranzact - Transaction Viewer
 
 <div align="center">
-  <img src="app_logo.png" alt="App Logo" width="120" height="120">
+  <img src="app/src/main/res/drawable/logo_splash.png" alt="App Logo" width="120" height="120">
   <br><br>
 </div>
+
 
 ## 📱 Project Overview
 
@@ -62,8 +63,28 @@ com.example.transactionviewer/
 ---
 
 ## 📸 Screenshots
+<div align="center"> 
+  <img src="assets/light1.jpeg" width="180"/> 
+  <img src="assets/dark1.jpeg" width="180"/> 
+  <img src="assets/light2.jpeg" width="180"/> 
+  <img src="assets/dark2.jpeg" width="180"/><br><br> 
+  
+  <img src="assets/light3.jpeg" width="180"/> 
+  <img src="assets/dark3.jpeg" width="180"/> 
+  <img src="assets/light4.jpeg" width="180"/> 
+  <img src="assets/dark4.jpeg" width="180"/><br><br> 
+  
+  <img src="assets/light5.jpeg" width="180"/> 
+  <img src="assets/dark5.jpeg" width="180"/> 
+  <img src="assets/light6.jpeg" width="180"/> 
+  <img src="assets/dark6.jpeg" width="180"/><br><br> 
+  
+  <img src="assets/light7.jpeg" width="180"/> 
+  <img src="assets/dark7.jpeg" width="180"/> 
+  <img src="assets/light8.jpeg" width="180"/> 
+  <img src="assets/dark8.jpeg" width="180"/> 
+</div>
 
-<div align="center"> <img src="assets/light1.jpeg" width="180"/> <img src="assets/dark1.png" width="180"/> <img src="assets/light2.png" width="180"/> <img src="assets/dark2.png" width="180"/><br><br> <img src="assets/light3.png" width="180"/> <img src="assets/dark3.png" width="180"/> <img src="assets/light4.png" width="180"/> <img src="assets/dark4.png" width="180"/><br><br> <img src="assets/light5.png" width="180"/> <img src="assets/dark5.png" width="180"/> <img src="assets/light6.png" width="180"/> <img src="assets/dark6.png" width="180"/><br><br> <img src="assets/light7.png" width="180"/> <img src="assets/dark7.png" width="180"/> <img src="assets/light8.png" width="180"/> <img src="assets/dark8.png" width="180"/> </div>
 
 
 ---
