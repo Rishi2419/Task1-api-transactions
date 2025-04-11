@@ -1,18 +1,29 @@
-Tranzact - Transaction Viewer
+# Tranzact - Transaction Viewer
 
-Project Overview
-Tranzact is a comprehensive Android application that allows users to track and manage their financial transactions securely. The application integrates with a transaction API, implements biometric authentication for enhanced security, and provides an intuitive user interface for transaction management.
-Key Features
+<div align="center">
+  <img src="app_logo.png" alt="App Logo" width="120" height="120">
+  <br><br>
+</div>
 
-Secure Authentication: Login system with API integration
-Biometric Authentication: Fingerprint login for returning users
-Transaction Management: View, search, and filter transactions
-Budget Analysis: Visual representation of spending patterns
-Offline Mode: Access transaction data without internet connection
-Dark Mode: Eye-friendly interface option
-Secure Token Handling: Using EncryptedSharedPreferences
+## 📱 Project Overview
 
-App Structure
+**Tranzact** is a secure financial transaction management Android application that integrates with a transaction API, implements biometric authentication, and provides an intuitive user interface.
+
+### ✨ Key Features
+
+- **🔐 Secure Authentication**: Login system with API integration
+- **👆 Biometric Authentication**: Fingerprint login for returning users
+- **💰 Transaction Management**: View, search, and filter transactions
+- **📊 Budget Analysis**: Visual representation of spending patterns
+- **🔄 Offline Mode**: Access transaction data without internet connection
+- **🌙 Dark Mode**: Eye-friendly interface option
+- **🔒 Secure Token Handling**: Using EncryptedSharedPreferences
+
+---
+
+## 🧩 App Structure
+
+```
 com.example.transactionviewer/
 ├── activities/
 │   ├── LoginActivity.java
@@ -46,137 +57,222 @@ com.example.transactionviewer/
 │   └── TransactionFragment.java
 └── util/
     └── NetworkUtil.java
+```
 
-Setup Instructions
-Prerequisites
+---
 
-Android Studio Arctic Fox (2021.3.1) or newer
-JDK 11 or newer
-Android SDK with minimum API level 21 (Android 5.0 - Lollipop)
-An Android device or emulator with fingerprint sensor capabilities (for biometric authentication)
+## 📸 Screenshots
 
-Clone the Repository
-bashgit clone https://github.com/your-username/task1-api-transactions.git
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="splash_screen.png" alt="Splash" width="200"/><br><b>Splash Screen</b></td>
+      <td align="center"><img src="login_screen.png" alt="Login" width="200"/><br><b>Login Screen</b></td>
+      <td align="center"><img src="transactions_screen.png" alt="Transactions" width="200"/><br><b>Transactions List</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="filter_screen.png" alt="Filter" width="200"/><br><b>Transaction Filter</b></td>
+      <td align="center"><img src="analysis_screen.png" alt="Analysis" width="200"/><br><b>Budget Analysis</b></td>
+      <td align="center"><img src="profile_screen.png" alt="Profile" width="200"/><br><b>Profile Settings</b></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- ✅ Android Studio Arctic Fox (2021.3.1) or newer
+- ✅ JDK 11 or newer
+- ✅ Android SDK with minimum API level 21 (Android 5.0 - Lollipop)
+- ✅ Android device or emulator with fingerprint sensor capabilities
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/task1-api-transactions.git
 cd task1-api-transactions
-API Configuration
-The application connects to https://api.prepstripe.com/ for authentication and transaction data. No additional API keys are required.
-Database Setup
+```
+
+### API Configuration
+
+The application connects to `https://api.prepstripe.com/` for authentication and transaction data. No additional API keys are required.
+
+### Database Setup
+
 The Room database is automatically created on first application launch. No additional setup is required.
-Build Instructions
-Debug Build
 
-Open the project in Android Studio
-Connect an Android device or start an emulator
-Click on the "Run" button (▶️) or press Shift+F10
-Select the target device and click "OK"
+---
 
-Release Build
-To generate a signed APK:
+## 📦 Build Instructions
 
-In Android Studio, go to Build → Generate Signed Bundle/APK
-Select APK
-Create a new keystore or use an existing one:
+### Debug Build
 
-If creating new, fill out the required fields and remember your password
-If using existing, browse to your keystore location and enter the password
+1. Open the project in Android Studio
+2. Connect an Android device or start an emulator
+3. Click on the "Run" button (▶️) or press Shift+F10
+4. Select the target device and click "OK"
 
+### Release Build
 
-Click Next
-Select "release" build variant
-Check both V1 and V2 Signature Versions
-Click Finish
+<details>
+<summary><b>📱 Generate a signed APK</b></summary>
+<br>
 
-The signed APK will be generated in app/release/app-release.apk
-Creating GitHub Release
+1. In Android Studio, go to Build → Generate Signed Bundle/APK
+2. Select APK
+3. Create a new keystore or use an existing one:
+   - If creating new, fill out the required fields and remember your password
+   - If using existing, browse to your keystore location and enter the password
+4. Click Next
+5. Select "release" build variant
+6. Check both V1 and V2 Signature Versions
+7. Click Finish
 
-Create a tag for your release:
-bashgit tag -a v1.0.0 -m "Version 1.0.0"
-git push origin v1.0.0
+The signed APK will be generated in `app/release/app-release.apk`
+</details>
 
-Go to your GitHub repository
-Click on "Releases" in the right sidebar
-Click "Create a new release"
-Select the tag you just created
-Add a title and description for your release
-Drag and drop your APK file (app/release/app-release.apk)
-Click "Publish release"
+### Creating GitHub Release
 
-Usage Guide
-First Launch
+<details>
+<summary><b>🚀 Publish your release</b></summary>
+<br>
 
-Upon first launch, you will see the splash screen with the Tranzact logo
-You will be directed to the login screen
-Enter your username and password
-Tap "LOGIN" to authenticate
+1. Create a tag for your release:
+   ```bash
+   git tag -a v1.0.0 -m "Version 1.0.0"
+   git push origin v1.0.0
+   ```
 
-Subsequent Launches
+2. Go to your GitHub repository
+3. Click on "Releases" in the right sidebar
+4. Click "Create a new release"
+5. Select the tag you just created
+6. Add a title and description for your release
+7. Drag and drop your APK file (`app/release/app-release.apk`)
+8. Click "Publish release"
+</details>
 
-The app will prompt for biometric authentication
-Use your fingerprint to unlock the application
-Alternatively, you can switch back to password login
+---
 
-Features
+## 📝 Usage Guide
 
-Transactions Tab: View all your transactions
+### First Launch
 
-Search transactions using the search bar
-Filter transactions by amount or date
-View transaction details
+1. Upon first launch, you will see the splash screen with the Tranzact logo
+2. You will be directed to the login screen
+3. Enter your username and password
+4. Tap "LOGIN" to authenticate
 
+### Subsequent Launches
 
-Analysis Tab: Visualize your spending
+1. The app will prompt for biometric authentication
+2. Use your fingerprint to unlock the application
+3. Alternatively, you can switch back to password login
 
-Set monthly budget
-Monitor expenses by category
-View spending distribution in pie chart
+### Features
 
+<details>
+<summary><b>💸 Transactions Tab</b></summary>
+<br>
 
-Profile Tab: Manage your settings
+- View all your transactions
+- Search transactions using the search bar
+- Filter transactions by amount or date
+- View transaction details
+</details>
 
-Toggle Dark Mode
-Enable/Disable Biometric Lock
-Sign out
+<details>
+<summary><b>📈 Analysis Tab</b></summary>
+<br>
 
+- Set monthly budget
+- Monitor expenses by category
+- View spending distribution in pie chart
+</details>
 
+<details>
+<summary><b>👤 Profile Tab</b></summary>
+<br>
 
-Bonus Features Implemented
+- Toggle Dark Mode
+- Enable/Disable Biometric Lock
+- Sign out
+</details>
 
-Dark Mode: Toggle between light and dark themes from the Profile screen
-Offline Mode: Transactions are cached using Room Database and available offline with a banner notification
-Search/Filter Functionality: Search transactions by name and filter by various criteria:
+---
 
-Latest first
-Oldest first
-Amount (high to low)
-Amount (low to high)
+## 🎯 Bonus Features Implemented
 
+<table>
+  <tr>
+    <td width="50%">
+      <b>🌙 Dark Mode</b><br>
+      Toggle between light and dark themes from the Profile screen
+    </td>
+    <td width="50%">
+      <b>🔄 Offline Mode</b><br>
+      Transactions are cached using Room Database and available offline with a banner notification
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b>🔍 Search/Filter Functionality</b><br>
+      Search transactions by name and filter by various criteria (Latest first, Oldest first, Amount high to low, Amount low to high)
+    </td>
+    <td width="50%">
+      <b>📊 Budget Analysis</b><br>
+      Visual representation of spending with interactive charts using MPAndroidChart
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>🖼️ Profile Picture</b><br>
+      User can set and view their profile image
+    </td>
+  </tr>
+</table>
 
-Budget Analysis: Visual representation of spending with interactive charts
-Profile Picture: User can set and view their profile image
+---
 
-Technical Details
-Security Implementation
+## 🔧 Technical Details
 
-Token Storage: Secure token storage using EncryptedSharedPreferences
-Biometric Authentication: Implemented using BiometricPrompt API
-Network Security: HTTPS connections with certificate pinning
+### Security Implementation
 
-Libraries Used
+- **Token Storage**: Secure token storage using EncryptedSharedPreferences
+- **Biometric Authentication**: Implemented using BiometricPrompt API
+- **Network Security**: HTTPS connections with certificate pinning
 
-Retrofit: For API integration
-Room: For local database management
-MPAndroidChart: For data visualization
-Glide: For image loading and caching
-Material Components: For UI elements
+### Libraries Used
 
-Troubleshooting
-Common Issues
+| Library | Purpose |
+|---------|---------|
+| **Retrofit** | API integration |
+| **Room** | Local database management |
+| **MPAndroidChart** | Data visualization |
+| **Glide** | Image loading and caching |
+| **Material Components** | UI elements |
 
-Biometric Authentication Not Working: Ensure your device has fingerprint capabilities and you have enrolled at least one fingerprint
-Offline Mode Not Syncing: Check your internet connection and try refreshing the transactions screen
-API Connection Errors: Verify your internet connection and try again
+---
 
-License
+## ❓ Troubleshooting
+
+### Common Issues
+
+- **Biometric Authentication Not Working**: Ensure your device has fingerprint capabilities and you have enrolled at least one fingerprint
+- **Offline Mode Not Syncing**: Check your internet connection and try refreshing the transactions screen
+- **API Connection Errors**: Verify your internet connection and try again
+
+---
+
+## 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
-For questions or support, please contact your-email@example.com
+
+---
+
+## 📞 Contact
+
+For questions or support, please contact [your-email@example.com](mailto:your-email@example.com)
