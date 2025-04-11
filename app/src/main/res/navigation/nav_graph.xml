@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/transactionsFragment">
+
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.transactionviewer.ui.TransactionFragment"
+        android:label="Transactions" />
+
+    <fragment
+        android:id="@+id/analysisFragment"
+        android:name="com.example.transactionviewer.ui.AnalysisFragment"
+        android:label="Analysis" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.transactionviewer.ui.ProfileFragment"
+        android:label="Profile" />
+</navigation>

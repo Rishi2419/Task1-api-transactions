@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Oval -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/purple_200" />
+        </shape>
+    </item>
+</layer-list>
