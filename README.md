@@ -1,10 +1,9 @@
 # Tranzact - Transaction Viewer
 
 <div align="center">
-  <img src="app/src/main/res/drawable/logo_splash.png" alt="App Logo" width="120" height="120">
+  <img src="app/src/main/res/drawable/logo_splash.png" alt="App Logo" width="150" height="150">
   <br><br>
 </div>
-
 
 ## 📱 Project Overview
 
