@@ -59,33 +59,44 @@ com.example.transactionviewer/
     └── NetworkUtil.java
 ```
 
+## 🎥 Demo Video
+
+Watch the working demo here:  
+👉 [Click to view demo video](https://drive.google.com/file/d/18qR0Vgs4rKX02sIrCSsi2p5lpmZ-7k3g/view)
+
+---
+
+## 🧱 Code Structure Explanation
+
+Understand the full app architecture in detail here:  
+👉 [Watch code structure explanation](https://www.loom.com/share/8c6e56e6e56b471fa67fc920a09cb8fd?sid=fa6394dd-f13b-43ad-9cf4-0fa97aa0324d)
+
 ---
 
 ## 📸 Screenshots
 <div align="center"> 
-  <img src="assets/light1.jpeg" width="230"/> 
-  <img src="assets/dark1.jpeg" width="230"/> 
-  <img src="assets/light2.jpeg" width="230"/> 
-  <img src="assets/dark2.jpeg" width="230"/><br><br> 
+  <img src="assets/light1.jpeg" width="220"/> 
+  <img src="assets/dark1.jpeg" width="220"/> 
+  <img src="assets/light2.jpeg" width="220"/> 
+  <img src="assets/dark2.jpeg" width="220"/><br><br> 
   
-  <img src="assets/light3.jpeg" width="230"/> 
-  <img src="assets/dark3.jpeg" width="230"/> 
-  <img src="assets/light4.jpeg" width="230"/> 
-  <img src="assets/dark4.jpeg" width="230"/><br><br> 
+  <img src="assets/light3.jpeg" width="220"/> 
+  <img src="assets/dark3.jpeg" width="220"/> 
+  <img src="assets/light4.jpeg" width="220"/> 
+  <img src="assets/dark4.jpeg" width="220"/><br><br> 
   
-  <img src="assets/light5.jpeg" width="230"/> 
-  <img src="assets/dark5.jpeg" width="230"/> 
-  <img src="assets/light6.jpeg" width="230"/> 
-  <img src="assets/dark6.jpeg" width="230"/><br><br> 
+  <img src="assets/light5.jpeg" width="220"/> 
+  <img src="assets/dark5.jpeg" width="220"/> 
+  <img src="assets/light6.jpeg" width="220"/> 
+  <img src="assets/dark6.jpeg" width="220"/><br><br> 
   
-  <img src="assets/light7.jpeg" width="230"/> 
-  <img src="assets/dark7.jpeg" width="230"/> 
-  <img src="assets/light8.jpeg" width="230"/> 
-  <img src="assets/dark8.jpeg" width="230"/> 
+  <img src="assets/light7.jpeg" width="220"/> 
+  <img src="assets/dark7.jpeg" width="220"/> 
+  <img src="assets/light8.jpeg" width="220"/> 
+  <img src="assets/dark8.jpeg" width="220"/> 
 </div>
 
-
-
+---
 
 ---
 
