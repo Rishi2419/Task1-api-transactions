@@ -63,7 +63,7 @@ com.example.transactionviewer/
 
 ## 📸 Screenshots
 
-<div align="center"> <img src="assets/light1.png" width="180"/> <img src="assets/dark1.png" width="180"/> <img src="assets/light2.png" width="180"/> <img src="assets/dark2.png" width="180"/><br><br> <img src="assets/light3.png" width="180"/> <img src="assets/dark3.png" width="180"/> <img src="assets/light4.png" width="180"/> <img src="assets/dark4.png" width="180"/><br><br> <img src="assets/light5.png" width="180"/> <img src="assets/dark5.png" width="180"/> <img src="assets/light6.png" width="180"/> <img src="assets/dark6.png" width="180"/><br><br> <img src="assets/light7.png" width="180"/> <img src="assets/dark7.png" width="180"/> <img src="assets/light8.png" width="180"/> <img src="assets/dark8.png" width="180"/> </div>
+<div align="center"> <img src="assets/light1.jpeg" width="180"/> <img src="assets/dark1.png" width="180"/> <img src="assets/light2.png" width="180"/> <img src="assets/dark2.png" width="180"/><br><br> <img src="assets/light3.png" width="180"/> <img src="assets/dark3.png" width="180"/> <img src="assets/light4.png" width="180"/> <img src="assets/dark4.png" width="180"/><br><br> <img src="assets/light5.png" width="180"/> <img src="assets/dark5.png" width="180"/> <img src="assets/light6.png" width="180"/> <img src="assets/dark6.png" width="180"/><br><br> <img src="assets/light7.png" width="180"/> <img src="assets/dark7.png" width="180"/> <img src="assets/light8.png" width="180"/> <img src="assets/dark8.png" width="180"/> </div>
 
 
 ---
