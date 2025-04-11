@@ -63,20 +63,8 @@ com.example.transactionviewer/
 
 ## 📸 Screenshots
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="splash_screen.png" alt="Splash" width="200"/><br><b>Splash Screen</b></td>
-      <td align="center"><img src="login_screen.png" alt="Login" width="200"/><br><b>Login Screen</b></td>
-      <td align="center"><img src="transactions_screen.png" alt="Transactions" width="200"/><br><b>Transactions List</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="filter_screen.png" alt="Filter" width="200"/><br><b>Transaction Filter</b></td>
-      <td align="center"><img src="analysis_screen.png" alt="Analysis" width="200"/><br><b>Budget Analysis</b></td>
-      <td align="center"><img src="profile_screen.png" alt="Profile" width="200"/><br><b>Profile Settings</b></td>
-    </tr>
-  </table>
-</div>
+<div align="center"> <img src="assets/light1.png" width="180"/> <img src="assets/dark1.png" width="180"/> <img src="assets/light2.png" width="180"/> <img src="assets/dark2.png" width="180"/><br><br> <img src="assets/light3.png" width="180"/> <img src="assets/dark3.png" width="180"/> <img src="assets/light4.png" width="180"/> <img src="assets/dark4.png" width="180"/><br><br> <img src="assets/light5.png" width="180"/> <img src="assets/dark5.png" width="180"/> <img src="assets/light6.png" width="180"/> <img src="assets/dark6.png" width="180"/><br><br> <img src="assets/light7.png" width="180"/> <img src="assets/dark7.png" width="180"/> <img src="assets/light8.png" width="180"/> <img src="assets/dark8.png" width="180"/> </div>
+
 
 ---
 
