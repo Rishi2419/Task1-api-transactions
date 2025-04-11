@@ -75,25 +75,25 @@ Understand the full app architecture in detail here:
 
 ## 📸 Screenshots
 <div align="center"> 
-  <img src="assets/light1.jpeg" width="220"/> 
-  <img src="assets/dark1.jpeg" width="220"/> 
-  <img src="assets/light2.jpeg" width="220"/> 
-  <img src="assets/dark2.jpeg" width="220"/><br><br> 
+  <img src="assets/light1.jpeg" width="200"/> 
+  <img src="assets/dark1.jpeg" width="200"/> 
+  <img src="assets/light2.jpeg" width="200"/> 
+  <img src="assets/dark2.jpeg" width="200"/><br><br> 
   
-  <img src="assets/light3.jpeg" width="220"/> 
-  <img src="assets/dark3.jpeg" width="220"/> 
-  <img src="assets/light4.jpeg" width="220"/> 
-  <img src="assets/dark4.jpeg" width="220"/><br><br> 
+  <img src="assets/light3.jpeg" width="200"/> 
+  <img src="assets/dark3.jpeg" width="200"/> 
+  <img src="assets/light4.jpeg" width="200"/> 
+  <img src="assets/dark4.jpeg" width="200"/><br><br> 
   
-  <img src="assets/light5.jpeg" width="220"/> 
-  <img src="assets/dark5.jpeg" width="220"/> 
-  <img src="assets/light6.jpeg" width="220"/> 
-  <img src="assets/dark6.jpeg" width="220"/><br><br> 
+  <img src="assets/light5.jpeg" width="200"/> 
+  <img src="assets/dark5.jpeg" width="200"/> 
+  <img src="assets/light6.jpeg" width="200"/> 
+  <img src="assets/dark6.jpeg" width="200"/><br><br> 
   
-  <img src="assets/light7.jpeg" width="220"/> 
-  <img src="assets/dark7.jpeg" width="220"/> 
-  <img src="assets/light8.jpeg" width="220"/> 
-  <img src="assets/dark8.jpeg" width="220"/> 
+  <img src="assets/light7.jpeg" width="200"/> 
+  <img src="assets/dark7.jpeg" width="200"/> 
+  <img src="assets/light8.jpeg" width="200"/> 
+  <img src="assets/dark8.jpeg" width="200"/> 
 </div>
 
 ---
