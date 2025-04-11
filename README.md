@@ -92,7 +92,7 @@ com.example.transactionviewer/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task1-api-transactions.git
+git clone https://github.com/Rishi2419/Task1-api-transactions
 cd task1-api-transactions
 ```
 
@@ -199,6 +199,7 @@ The signed APK will be generated in `app/release/app-release.apk`
 
 - Toggle Dark Mode
 - Enable/Disable Biometric Lock
+- Set profile picture
 - Sign out
 </details>
 
@@ -275,4 +276,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com)
+For questions or support, please contact [your-email@example.com](mailto:sahurishikesh1908@gmail.com)
