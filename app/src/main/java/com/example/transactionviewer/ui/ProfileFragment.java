@@ -172,30 +172,30 @@ public class ProfileFragment extends Fragment {
         // Set the initial state of the toggle
         binding.switchDarkMode.setChecked(isDarkModeOn);
 
-        binding.switchDarkMode.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            // Save the dark mode preference
-            requireContext().getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
-                    .edit()
-                    .putBoolean(DARK_MODE_PREF, isChecked)
-                    .apply();
-
-            // Apply dark mode and recreate activity to apply theme properly
-            if (isChecked) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                Toast.makeText(getContext(), "Dark Mode Enabled", Toast.LENGTH_SHORT).show();
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                Toast.makeText(getContext(), "Dark Mode Disabled", Toast.LENGTH_SHORT).show();
-            }
-
-            // Add a slight delay to ensure the toast is shown before recreation
-            new Handler(Looper.getMainLooper()).postDelayed(() -> {
-                if (isAdded() && getActivity() != null) {
-                    // Recreate the activity to apply theme changes properly
-                    getActivity().recreate();
-                }
-            }, 300);
-        });
+//        binding.switchDarkMode.setOnCheckedChangeListener((buttonView, isChecked) -> {
+//            // Save the dark mode preference
+//            requireContext().getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
+//                    .edit()
+//                    .putBoolean(DARK_MODE_PREF, isChecked)
+//                    .apply();
+//
+//            // Apply dark mode and recreate activity to apply theme properly
+//            if (isChecked) {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+//                Toast.makeText(getContext(), "Dark Mode Enabled", Toast.LENGTH_SHORT).show();
+//            } else {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+//                Toast.makeText(getContext(), "Dark Mode Disabled", Toast.LENGTH_SHORT).show();
+//            }
+//
+//            // Add a slight delay to ensure the toast is shown before recreation
+//            new Handler(Looper.getMainLooper()).postDelayed(() -> {
+//                if (isAdded() && getActivity() != null) {
+//                    // Recreate the activity to apply theme changes properly
+//                    getActivity().recreate();
+//                }
+//            }, 300);
+//        });
 
         // Set initial state for biometrics
         binding.switchBiometrics.setChecked(tokenManager.isBiometricEnabled());
